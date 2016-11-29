@@ -18,5 +18,12 @@
   "homepage": "https://github.com/katlyn333/alfred#readme",
   "dependencies": {
     "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0"
+  },
+  "scripts": {
+    "start": "babel-node app.js --presets es2015"
   }
 }
